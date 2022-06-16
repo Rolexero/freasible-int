@@ -1,0 +1,1 @@
+export const AllCompetitonsApi = () => `http://api.football-data.org/v4/competitions`;
