@@ -16,7 +16,7 @@ const Competition = () => {
 
   return (
     <div className="container mx-auto px-0 mt-0">
-      <div className="flex flex-col border  border-gray-200 mx-auto p-1 rounded-lg md:w-4/5  min-h-fit">
+      <div className="flex flex-col border wrapper  border-gray-200 mx-auto p-1 rounded-lg md:w-4/5  min-h-fit">
         <nav className="flex p-4" aria-label="Breadcrumb">
           <ol className="inline-flex  items-center space-x-1 md:space-x-3">
             <li className="inline-flex items-center ">
