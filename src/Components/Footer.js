@@ -3,7 +3,6 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="p-4 bg-white rounded-xs shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-      <div className="container mx-auto">
         <span className="text-lg text-gray-500 sm:text-center dark:text-gray-400">
           Built by Rotimi Olaoluwa
         </span>
@@ -47,7 +46,6 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-      </div>
     </footer>
   );
 }
