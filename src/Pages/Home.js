@@ -1,9 +1,6 @@
 import React from 'react'
 import AllCompetions from '../Components/AllCompetitions';
 
-
-
-
 const Home = () => {
 
   return (

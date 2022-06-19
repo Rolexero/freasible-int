@@ -6,7 +6,7 @@ import Loading from "./Loading";
 
 const Matches = ({ openTab, id }) => {
   const responseConfig = {
-    url: `https://api.football-data.org/v2/competitions/${id}`,
+    url: `http://api.football-data.org/v2/competitions/${id}`,
     headers: {
       "X-Auth-Token": "ec144945fa844a478747716a258703be",
     },
