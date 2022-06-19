@@ -1,6 +1,4 @@
-import React, {useState} from 'react'
-import { useQuery } from "react-query";
-import { AllCompetitonsApi } from '../api';
+import React from 'react'
 import { Link } from "react-router-dom";
 import useHttp from "../Hooks/useHttp";
 import Loading from './Loading';

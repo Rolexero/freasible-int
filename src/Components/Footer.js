@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="p-4 bg-white rounded-xs shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-      <div className='container mx-auto'>
+      <div className="container mx-auto">
         <span className="text-lg text-gray-500 sm:text-center dark:text-gray-400">
           Built by Rotimi Olaoluwa
         </span>
@@ -11,6 +11,7 @@ const Footer = () => {
           <li className="mx-4">
             <a
               href="https://twitter.com/Rolexero1"
+              rel="noreferrer"
               target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
@@ -27,6 +28,7 @@ const Footer = () => {
           <li>
             <a
               href="https://github.com/Rolexero/freasible-int"
+              rel="noreferrer"
               target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >

@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
 import { useParams, useLocation } from 'react-router-dom'
-import useHttp from '../Hooks/useHttp';
 import { Link } from 'react-router-dom';
 import Tabs from '../Components/Tabs';
 
 
 const Competition = () => {
-    const {id, query} = useParams();
+    const {id} = useParams();
     const location = useLocation();
 
     

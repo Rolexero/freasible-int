@@ -1,6 +1,6 @@
 import React from 'react'
 import { css } from "@emotion/react";
-import {ClipLoader, PacmanLoader, PuffLoader} from "react-spinners";
+import {PacmanLoader} from "react-spinners";
 
 const override = css`
   display: block;
