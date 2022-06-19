@@ -2,12 +2,14 @@ import React from 'react'
 import AllCompetions from '../Components/AllCompetitions';
 
 
+
 const Home = () => {
+
   return (
     <div className="container mx-auto px-0 mt-0">
-      <div className="shadow-2xl flex flex-col mx-auto rounded-lg w-4/5 relative  p-10 space-y-3 min-h-fit mb-10">
-        <h2 className="text-2xl">All Competitions</h2>
-        <AllCompetions />
+      <div className="flex flex-col border  border-gray-200 mx-auto p-1 rounded-lg md:w-4/5 p-auto space-y-4 min-h-fit mb-10">
+        <h2 className="text-2xl mt-5 p-3">All Competitions</h2>
+        <AllCompetions/>
       </div>
     </div>
   );

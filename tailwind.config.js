@@ -14,6 +14,11 @@ module.exports = {
                 Image: "url('/src/asset/bg-football.2d1b7b03.jpg')",
                 logoImage: "url('/src/asset/logo.efdde25b.png')",
             },
+            colors: {
+                brightDark: "#14161a",
+                darkBlue: "#347abe",
+                yellowColor: "#eb9749",
+            },
         },
     },
     plugins: [],

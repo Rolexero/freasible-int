@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tab-size {
+    max-width: 95%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.team-name {
+    min-width: 200px;
+    flex: 2;
+    text-align: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.team-img {
+    min-width: 30px;
+    width: 30px;
+    max-width: 30px;
+    margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.match:nth-child(odd) {
+    border-right: 1px outset#dedede;
+}
+
+.match {
+    cursor: pointer;
+    border-bottom: 0.5px solid#dedede;
+    align-items: center;
+}
+
+.img-home {
+    max-width: 25px;
+}
+
+.outcome {
+    max-width: 25px;
+    margin-left: auto;
 }
