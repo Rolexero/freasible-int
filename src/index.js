@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { QueryClient, QueryClientProvider, useQuery } from "react-query";
 
 
+
 const queryClient = new QueryClient();
 
 

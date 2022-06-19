@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="h-px">
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           element={<Competition />}
         />
       </Routes>
-      <Footer />
+        <Footer />
     </div>
   );
 }
